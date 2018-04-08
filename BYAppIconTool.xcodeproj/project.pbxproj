@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5B713881F8E0E9200E2B17A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B713871F8E0E9200E2B17A /* AppDelegate.m */; };
-		C5B7138A1F8E0E9200E2B17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B713891F8E0E9200E2B17A /* Assets.xcassets */; };
-		C5B7138D1F8E0E9200E2B17A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B7138B1F8E0E9200E2B17A /* MainMenu.xib */; };
-		C5B713901F8E0E9200E2B17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7138F1F8E0E9200E2B17A /* main.m */; };
+		76082DF31FC12E2100EE906D /* NSImage+BYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 76082DF21FC12E2100EE906D /* NSImage+BYAddition.m */; };
+		76082DF61FC134C000EE906D /* BYImageInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76082DF51FC134C000EE906D /* BYImageInfoModel.m */; };
+		76082DF91FC139AF00EE906D /* BYSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76082DF81FC139AF00EE906D /* BYSourceModel.m */; };
+		C5B713B21F8E1ABA00E2B17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B713AC1F8E1ABA00E2B17A /* main.m */; };
+		C5B713B31F8E1ABA00E2B17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B713AD1F8E1ABA00E2B17A /* Assets.xcassets */; };
+		C5B713B41F8E1ABA00E2B17A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B713AE1F8E1ABA00E2B17A /* AppDelegate.m */; };
+		C5B713B51F8E1ABA00E2B17A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B713B01F8E1ABA00E2B17A /* MainMenu.xib */; };
+		C5B713B91F8E1BA900E2B17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B713B81F8E1BA900E2B17A /* Main.storyboard */; };
+		C5B713BC1F8E1C4400E2B17A /* BYMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B713BB1F8E1C4400E2B17A /* BYMainWindowController.m */; };
+		C5B713BF1F8E259900E2B17A /* BYImageSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B713BE1F8E259900E2B17A /* BYImageSelectViewController.m */; };
+		C5C48F5E1F8E30C90014E26D /* BYDragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C48F5D1F8E30C90014E26D /* BYDragDropView.m */; };
+		C5FF49F91F8F739900488020 /* Source.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5FF49F81F8F739900488020 /* Source.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76082DF11FC12E2100EE906D /* NSImage+BYAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+BYAddition.h"; sourceTree = "<group>"; };
+		76082DF21FC12E2100EE906D /* NSImage+BYAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+BYAddition.m"; sourceTree = "<group>"; };
+		76082DF41FC134C000EE906D /* BYImageInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYImageInfoModel.h; sourceTree = "<group>"; };
+		76082DF51FC134C000EE906D /* BYImageInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYImageInfoModel.m; sourceTree = "<group>"; };
+		76082DF71FC139AF00EE906D /* BYSourceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYSourceModel.h; sourceTree = "<group>"; };
+		76082DF81FC139AF00EE906D /* BYSourceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYSourceModel.m; sourceTree = "<group>"; };
+		C58DA7091F9066E000B6368E /* BYAppIconTool.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = BYAppIconTool.entitlements; sourceTree = "<group>"; };
 		C5B713831F8E0E9200E2B17A /* BYAppIconTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYAppIconTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5B713861F8E0E9200E2B17A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C5B713871F8E0E9200E2B17A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5B713891F8E0E9200E2B17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5B7138C1F8E0E9200E2B17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		C5B7138E1F8E0E9200E2B17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5B7138F1F8E0E9200E2B17A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C5B713911F8E0E9200E2B17A /* BYAppIconTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BYAppIconTool.entitlements; sourceTree = "<group>"; };
+		C5B713A81F8E1A3F00E2B17A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B713AB1F8E1ABA00E2B17A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5B713AC1F8E1ABA00E2B17A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5B713AD1F8E1ABA00E2B17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5B713AE1F8E1ABA00E2B17A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5B713B11F8E1ABA00E2B17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		C5B713B81F8E1BA900E2B17A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C5B713BA1F8E1C4400E2B17A /* BYMainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMainWindowController.h; sourceTree = "<group>"; };
+		C5B713BB1F8E1C4400E2B17A /* BYMainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMainWindowController.m; sourceTree = "<group>"; };
+		C5B713BD1F8E259900E2B17A /* BYImageSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYImageSelectViewController.h; sourceTree = "<group>"; };
+		C5B713BE1F8E259900E2B17A /* BYImageSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYImageSelectViewController.m; sourceTree = "<group>"; };
+		C5C48F5C1F8E30C90014E26D /* BYDragDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDragDropView.h; sourceTree = "<group>"; };
+		C5C48F5D1F8E30C90014E26D /* BYDragDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDragDropView.m; sourceTree = "<group>"; };
+		C5FF49F81F8F739900488020 /* Source.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Source.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7620D7931FCAFA6900FB0462 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5B713BA1F8E1C4400E2B17A /* BYMainWindowController.h */,
+				C5B713BB1F8E1C4400E2B17A /* BYMainWindowController.m */,
+				C5B713BD1F8E259900E2B17A /* BYImageSelectViewController.h */,
+				C5B713BE1F8E259900E2B17A /* BYImageSelectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7620D7941FCAFA8700FB0462 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76082DF71FC139AF00EE906D /* BYSourceModel.h */,
+				76082DF81FC139AF00EE906D /* BYSourceModel.m */,
+				76082DF41FC134C000EE906D /* BYImageInfoModel.h */,
+				76082DF51FC134C000EE906D /* BYImageInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7620D7951FCAFA9400FB0462 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76082DF11FC12E2100EE906D /* NSImage+BYAddition.h */,
+				76082DF21FC12E2100EE906D /* NSImage+BYAddition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7620D7971FCAFAB300FB0462 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5C48F5C1F8E30C90014E26D /* BYDragDropView.h */,
+				C5C48F5D1F8E30C90014E26D /* BYDragDropView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C5B7137A1F8E0E9200E2B17A = {
 			isa = PBXGroup;
 			children = (
@@ -54,15 +116,45 @@
 		C5B713851F8E0E9200E2B17A /* BYAppIconTool */ = {
 			isa = PBXGroup;
 			children = (
-				C5B713861F8E0E9200E2B17A /* AppDelegate.h */,
-				C5B713871F8E0E9200E2B17A /* AppDelegate.m */,
-				C5B713891F8E0E9200E2B17A /* Assets.xcassets */,
-				C5B7138B1F8E0E9200E2B17A /* MainMenu.xib */,
-				C5B7138E1F8E0E9200E2B17A /* Info.plist */,
-				C5B7138F1F8E0E9200E2B17A /* main.m */,
-				C5B713911F8E0E9200E2B17A /* BYAppIconTool.entitlements */,
+				C5B713A51F8E19CB00E2B17A /* Classes */,
+				C5B713B71F8E1B1C00E2B17A /* Supporting Files */,
 			);
 			path = BYAppIconTool;
+			sourceTree = "<group>";
+		};
+		C5B713A51F8E19CB00E2B17A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C5B713A61F8E19CB00E2B17A /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C5B713A61F8E19CB00E2B17A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7620D7951FCAFA9400FB0462 /* Category */,
+				7620D7931FCAFA6900FB0462 /* Controller */,
+				7620D7941FCAFA8700FB0462 /* Model */,
+				7620D7971FCAFAB300FB0462 /* View */,
+				C5FF49F81F8F739900488020 /* Source.plist */,
+				C5B713B81F8E1BA900E2B17A /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C5B713B71F8E1B1C00E2B17A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58DA7091F9066E000B6368E /* BYAppIconTool.entitlements */,
+				C5B713AB1F8E1ABA00E2B17A /* AppDelegate.h */,
+				C5B713AE1F8E1ABA00E2B17A /* AppDelegate.m */,
+				C5B713AD1F8E1ABA00E2B17A /* Assets.xcassets */,
+				C5B713AC1F8E1ABA00E2B17A /* main.m */,
+				C5B713A81F8E1A3F00E2B17A /* Info.plist */,
+				C5B713B01F8E1ABA00E2B17A /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,12 +183,21 @@
 		C5B7137B1F8E0E9200E2B17A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BY;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = byxc;
 				TargetAttributes = {
 					C5B713821F8E0E9200E2B17A = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -123,8 +224,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B7138A1F8E0E9200E2B17A /* Assets.xcassets in Resources */,
-				C5B7138D1F8E0E9200E2B17A /* MainMenu.xib in Resources */,
+				C5B713B31F8E1ABA00E2B17A /* Assets.xcassets in Resources */,
+				C5B713B91F8E1BA900E2B17A /* Main.storyboard in Resources */,
+				C5B713B51F8E1ABA00E2B17A /* MainMenu.xib in Resources */,
+				C5FF49F91F8F739900488020 /* Source.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,18 +238,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B713901F8E0E9200E2B17A /* main.m in Sources */,
-				C5B713881F8E0E9200E2B17A /* AppDelegate.m in Sources */,
+				76082DF31FC12E2100EE906D /* NSImage+BYAddition.m in Sources */,
+				C5B713BF1F8E259900E2B17A /* BYImageSelectViewController.m in Sources */,
+				C5C48F5E1F8E30C90014E26D /* BYDragDropView.m in Sources */,
+				C5B713BC1F8E1C4400E2B17A /* BYMainWindowController.m in Sources */,
+				C5B713B41F8E1ABA00E2B17A /* AppDelegate.m in Sources */,
+				C5B713B21F8E1ABA00E2B17A /* main.m in Sources */,
+				76082DF61FC134C000EE906D /* BYImageInfoModel.m in Sources */,
+				76082DF91FC139AF00EE906D /* BYSourceModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C5B7138B1F8E0E9200E2B17A /* MainMenu.xib */ = {
+		C5B713B01F8E1ABA00E2B17A /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C5B7138C1F8E0E9200E2B17A /* Base */,
+				C5B713B11F8E1ABA00E2B17A /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -158,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -213,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -261,14 +372,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BYAppIconTool/BYAppIconTool.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JLH85UZHMF;
 				INFOPLIST_FILE = BYAppIconTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = byxc.BYAppIconTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -276,14 +389,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BYAppIconTool/BYAppIconTool.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JLH85UZHMF;
 				INFOPLIST_FILE = BYAppIconTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = byxc.BYAppIconTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

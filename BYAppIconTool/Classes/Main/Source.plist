@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iPhone</key>
+	<array>
+		<string>20x20</string>
+		<string>29x29</string>
+		<string>40x40</string>
+		<string>60x60</string>
+	</array>
+	<key>iPad</key>
+	<array>
+		<string>20x20</string>
+		<string>29x29</string>
+		<string>40x40</string>
+		<string>76x76</string>
+		<string>83.5x83.5</string>
+	</array>
+	<key>AppleWatch</key>
+	<array>
+		<string>24x24</string>
+		<string>27.5x27.5</string>
+		<string>29x29</string>
+		<string>40x40</string>
+		<string>44x44</string>
+		<string>86x86</string>
+		<string>98x98</string>
+	</array>
+	<key>Mac</key>
+	<array>
+		<string>16x16</string>
+		<string>32x32</string>
+		<string>128x128</string>
+		<string>256x256</string>
+		<string>512x512</string>
+	</array>
+</dict>
+</plist>
